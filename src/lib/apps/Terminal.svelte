@@ -25,13 +25,13 @@
 		<div class="neofetch flex items-center gap-4">
 			<img src="/logo.svg" alt="logo" class="w-1/4 h-1/4"/>
 			<div class="text">
-				<b>os:</b> theoOS<br>
+				<b>os:</b> ValiantOs<br>
 				<b>powered by:</b>
 					<a class="text-white" href="https://kit.svelte.dev" target="_blank">SvelteKit</a><br>
 				<b>created by:</b>
 					<a class="text-white" href="https://github.com/TheoIsDumb" target="_blank">Theo</a><br>
 				<b>source code:</b>
-					<a class="text-white" href="https://github.com/TheoIsDumb/TheoOS" target="_blank">Github</a><br>
+					<a class="text-white" href="https://github.com/TheoIsDumb/ValiantOs" target="_blank">Github</a><br>
 				<b>courtesy:</b>
 					<a class="text-white" href="https://vkdbois.xyz" target="_blank">vkdbois.xyz</a><br>
 			</div>

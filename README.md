@@ -1,10 +1,10 @@
 ![screenshot](screenshot.webp)
 
-# "TheoOS" (hehe)
+# "ValiantOs"
 
-An OS-looking thingy made by me.  
+An OS-looking thingy.  
 
-Inspired by Yashash Pugalia's [win11-svelte](https://github.com/yashash-pugalia/win11-svelte).
+This is a Fork of [TheoOS](https://github.com/TheoIsDumb/TheoOS).
 
 ## Resources
 

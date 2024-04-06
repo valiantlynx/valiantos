@@ -12,11 +12,11 @@
         <div class="content flex flex-col items-center justify-center">
             <Logo/>
 
-            <span class="text-3xl font-semibold">theoOS</span>
+            <span class="text-3xl font-semibold">ValiantOs</span>
             <span class="text-center text-sm">(yes, i drew something random<br>and called it a logo hehe)</span>
 
             <a class="px-3 py-1 rounded bg-blue-500 text-white"
-                href="https://github.com/TheoIsDumb/TheoOS" target="_blank" noreferrer>
+                href="https://github.com/TheoIsDumb/ValiantOs" target="_blank" noreferrer>
                 source code
             </a>
 
