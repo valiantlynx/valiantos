@@ -5,10 +5,10 @@ services:
     container_name: valiantos
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.solo
     restart: always
     ports:
-      - 3000:3000
+      - 3001:3000
     networks:
       - valiantlynx-turborepo
 
