@@ -4,11 +4,9 @@
 name: Build and deploy container app to Azure Web App - valiantos
 
 on:
+  repository_dispatch:
+    types: [image_pushed]
   workflow_dispatch:
-  workflow_run:
-    workflows: ["valiantos"]  # This triggers the deployment after valiantos workflow completes
-    types:
-      - completed
 
 jobs:
   deploy:
@@ -20,7 +18,6 @@ jobs:
     steps:
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
-      if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main'
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'valiantos'
