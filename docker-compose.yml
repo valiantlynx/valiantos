@@ -19,3 +19,5 @@ services:
       - traefik.http.routers.valiantos.entrypoints=web
       - traefik.http.services.valiantos.loadbalancer.server.port=3000
 
+networks:
+  dokploy-network:
