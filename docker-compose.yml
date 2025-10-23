@@ -10,10 +10,12 @@ services:
     ports:
       - 3001:3000
     networks:
-      - valiantlynx-turborepo
+      - dokploy-network
+    expose:
+      - 3000
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.valiantos.rule=Host(`valiantos.valiantlynx.com`)
+      - traefik.http.routers.valiantos.entrypoints=web
+      - traefik.http.services.valiantos.loadbalancer.server.port=3000
 
-# Define a network, which allows containers to communicate
-# with each other, by using their container name as a hostname
-networks:
-  valiantlynx-turborepo:
-    external: false
