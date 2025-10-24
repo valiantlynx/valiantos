@@ -166,10 +166,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@neodrag/svelte@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@neodrag/svelte/-/svelte-2.0.3.tgz#d7750a66a6dabfb3d2030172973ce0227e502f54"
-  integrity sha512-/7k4Byv6guBs6NpfzOnqOep8PM3HjhPg1rRPNsJsGNGDXSJNB+tn9NAi/vTXJBos3vN9XPlbnr3g/lNKGfg+Jg==
+"@neodrag/svelte@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@neodrag/svelte/-/svelte-2.3.3.tgz#79261ca4f37a5efdced6a113632f9ebab4b76954"
+  integrity sha512-avXzhrilsBsnMFljhVAQ7h+6hbSIrvRCJ61GCiGbGISkC1QOhjDCNvPZo2+7KVwiYrnUBx4NRH0kTIqrcxv9Lg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
