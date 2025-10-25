@@ -1,5 +1,5 @@
 # Use Ubuntu as the base image to set up the development environment
-FROM ubuntu:20.04 AS dev
+FROM ubuntu:24.04 AS dev
 
 # Avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
@@ -48,3 +48,4 @@ SHELL ["/bin/bash", "-c"]
 
 # Start the SvelteKit app in development mode
 CMD ["yarn", "dev", "--host"]
+
